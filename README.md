@@ -31,11 +31,11 @@ document.body.append(say());
 Test webpack with `npx webpack`. There'll be two file generated: `dist/bundle.js` and `dist/index.html`.
 
 ### Add `package.json` scripts
-```json
+```diff
 {
   //...
   "scripts": {
-    "build": "webpack",
++    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   //...
