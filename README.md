@@ -33,12 +33,12 @@ Test webpack with `npx webpack`. There'll be two file generated: `dist/bundle.js
 ### Add `package.json` scripts
 ```json
 {
-  xxx
+  //...
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  xxx
+  //...
 }
 ```
 
@@ -87,7 +87,7 @@ npm install -D babel-loader @babel/core @babel/preset-env @babel/preset-react
 ### Configure `babel-loader`
 ```js
 export.modeuls = {
-  // ...
+  //...
   module: {
     rules: [
       {
