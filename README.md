@@ -86,7 +86,7 @@ npm install -D babel-loader @babel/core @babel/preset-env @babel/preset-react
 
 ### Configure `babel-loader`
 ```js
-export.modeuls = {
+module.exports = {
   //...
   module: {
     rules: [
